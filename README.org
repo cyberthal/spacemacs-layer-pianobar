@@ -7,6 +7,8 @@
   - [[#features][Features:]]
   - [[#relevant-links][Relevant links]]
 - [[#install][Install]]
+- [[#configure][Configure]]
+- [[#run][Run]]
 - [[#key-bindings][Key bindings]]
 
 * Description
@@ -25,6 +27,30 @@ This layer integrates an online music service into Spacemacs.
 To use this configuration layer, add it to your =~/.spacemacs=. You will need to
 add =pianobar= to the existing =dotspacemacs-configuration-layers= list in this
 file.
+
+For example:
+#+begin_src elisp
+dotspacemacs-configuration-layers
+   '(
+   (pianobar :variables pianobar-config t)
+   )
+#+end_src
+
+* Configure
+Below is an example configuration from MacOS:
+
+#+begin_src bash
+$ cat ~/.config/pianobar/config
+user = foobar@gmail.com
+password = 295TkBbHZiKwnDnQYhJW 
+autostart_station = 30385222902831057
+#+end_src
+
+* Run
+
+M-x pianobar
+
+With the above configuration, pianobar will login and start playing the autostart station.
 
 * Key bindings
 
