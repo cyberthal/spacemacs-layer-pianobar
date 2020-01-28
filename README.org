@@ -16,6 +16,7 @@ This layer integrates an online music service into Spacemacs.
 - Support for listening to music from within Emacs via [[https://6xq.net/pianobar/][Pianobar]].
 
 ** Relevant links
+- [[https://github.com/agrif/pianobar.el][pianobar.el]]
 - [[https://github.com/PromyLOPh/pianobar/blob/master/contrib/config-example][Example config file]]
 - [[https://wiki.archlinux.org/index.php/Pianobar][Arch Linux wiki]]
 - [[https://jlk.fjfi.cvut.cz/arch/manpages/man/pianobar.1][Arch man page]]
